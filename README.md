@@ -1,4 +1,4 @@
-# homework-challenge-2
+# portoflio-mockup
 Advanced CSS Challenge
 
 * AS AN employer
