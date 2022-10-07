@@ -171,11 +171,18 @@ footer {
     display: flex;
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer a {
+    display: flex;
+    padding: 30px;
+    padding-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration-line: underline;
 }
 
 @media screen and (max-width: 992px) {
-    .card {
+    .body {
       width: 50%
     }
     header {
@@ -184,7 +191,7 @@ footer {
   }
   /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
   @media screen and (max-width: 786px) {
-    .card {
+    .body {
       width: 75%
     }
     header {
