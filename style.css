@@ -40,12 +40,6 @@ a {
     text-decoration: none;
 }
 
-aside {
-    display: flex;
-    flex: 30%;
-    flex-wrap: wrap;
-}
-
 p {
     font-size: 24px;
     color: black;
@@ -58,14 +52,33 @@ p {
 
 .surfing {
     display: flex;
+}
+
+.surfing p {
     text-align: left;
+    background-color: lightskyblue;
+}
+
+.surfing h3 {
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: lightskyblue;
 }
 
 
 .content {
     display: flex;
-    flex: 70%;
     margin-left: 20px;
+}
+
+.content h3 {
+    text-align: left;
+    background-color: lightskyblue;
+}
+
+.content p {
+    text-align: left;
+    background-color: lightskyblue;
 }
 
 .cards {
@@ -84,13 +97,9 @@ p {
   }
   
 .cards img {
-    width: 100%;
+    max-width: 100%;
     max-height: 400px;
   }
-
-h2 {
-    width: 30%;
-}
 
 h3 {
     margin-bottom: 10px;
@@ -111,8 +120,10 @@ img:hover {
   }
 
 .surfing img {
+    display: flex;
     max-height: 800px;
     opacity: 0.5; 
+    margin: 10px auto;
 }
 
 .surfing img:hover {
@@ -169,6 +180,7 @@ img:hover {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -179,6 +191,11 @@ footer a {
     padding-right: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration-line: underline;
+}
+
+footer h2 {
+    display: flex;
+    padding-right: 10px;
 }
 
 @media screen and (max-width: 992px) {
