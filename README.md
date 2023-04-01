@@ -1,7 +1,10 @@
 # portoflio-mockup
 Advanced CSS Challenge
 
-* AS AN employer
+# View Deployed Application Here: https://jessica-easley.github.io/portfolio-mockup/
+
+# User Story
+AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position 
 
@@ -18,3 +21,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 * It's done when I click on the images of the applications I am taken to the corresponding deployed application
 
 * It's done when I resize the page or view the site on various screens and devices and I am presented with a responsive layout that adapts to my viewport
+
+# Technologies Used 
+ * HTML
+ * CSS
